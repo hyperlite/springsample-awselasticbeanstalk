@@ -14,7 +14,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>springsample</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
