@@ -9,7 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
 public final class SampleController {
 
 	@RequestMapping("/sendMessage")
-	public ModelAndView sayHello(@RequestParam("message") final String message) {
+	public ModelAndView sendMessage(
+			@RequestParam("message") final String message) {
 		final ModelAndView modelAndView = new ModelAndView(
 				"/WEB-INF/jsp/message.jsp");
 
