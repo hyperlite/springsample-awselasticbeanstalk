@@ -12,7 +12,7 @@ public final class SampleController {
 	public ModelAndView sendMessage(
 			@RequestParam("message") final String message) {
 		final ModelAndView modelAndView = new ModelAndView(
-				"/WEB-INF/jsp/message.jsp");
+				"/WEB-INF/jsp/confirmation.jsp");
 
 		modelAndView.addObject("message", message);
 
